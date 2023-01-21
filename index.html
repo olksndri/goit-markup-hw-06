@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Шапка сторінки-->
+    <header class="header">
+      <div class="container header-container">
+        <!--Логотип-->
+        <a href="./index.html" class="logo"
+          ><span class="web">Web</span>studio</a
+        >
+
+        <!--Розділ основної навігації з посиланнями на секції поточної або інших сторінок-->
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li>
+              <a href="./index.html" class="navigation-link current">Studio</a>
+            </li>
+
+            <li>
+              <a href="./portfolio.html" class="navigation-link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="" class="navigation-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!--Електронна пошта-->
+        <a href="mailto:info@devstudio.com" class="contacts email"
+          >info@devstudio.com</a
+        >
+
+        <!--Телефонний номер-->
+        <a href="tel:+11(000)111-11-11" class="contacts">+11 (000) 111-11-11</a>
+      </div>
+    </header>
+
+    <!--Основний унікальний контент сторінки-->
+    <main>
+      <!--Герой-->
+      <section class="hero">
+        <div class="container hero-container">
+          <!--Заголовок-->
+          <h1 class="hero-title">
+            Effective Solutions<br />
+            for Your Business
+          </h1>
+          <!--Кнопка-->
+          <button data-modal-open class="hero-btn">Order Service</button>
+        </div>
+      </section>
+      <!--Переваги компанії-->
+      <section class="characteristics">
+        <div class="container">
+          <ul class="benefits">
+            <li class="characteristics-item">
+              <div class="icon-wrapper benefits">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="header-three-title benefits-header">Strategy</h3>
+              <p class="paragraph-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+
+            <li class="characteristics-item">
+              <div class="icon-wrapper benefits">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="header-three-title benefits-header">Punctuality</h3>
+              <p class="paragraph-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+
+            <li class="characteristics-item">
+              <div class="icon-wrapper benefits">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="header-three-title benefits-header">Diligence</h3>
+              <p class="paragraph-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+
+            <li class="characteristics-item">
+              <div class="icon-wrapper benefits">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="header-three-title benefits-header">Technologies</h3>
+              <p class="paragraph-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Чим займається компанія-->
+      <section class="what-company-does">
+        <div class="container">
+          <!--Заголовок секції-->
+          <h2 class="headertwo-title">What are we doing</h2>
+          <!--Фотографії платформ для яких створюються продукти-->
+          <ul class="unordered-list wawd-photos-list">
+            <li>
+              <img
+                src="images/Rectangle71.jpg"
+                alt="Computer display"
+                width="360"
+                class="wawd-photos"
+              />
+            </li>
+            <li>
+              <img
+                src="images/Rectangle72.jpg"
+                alt="Smartphone screen"
+                width="360"
+                class="wawd-photos"
+              />
+            </li>
+            <li>
+              <img
+                src="images/Rectangle73.jpg"
+                alt="Smartphone and laptop"
+                width="360"
+                class="wawd-photos"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Члени команди-->
+      <section class="our-team">
+        <div class="container">
+          <h2 class="headertwo-title">Our Team</h2>
+
+          <ul class="unordered-list ot-ul">
+            <li class="our-team-item">
+              <img
+                src="images/img1.jpg"
+                alt="Grinning black-haired man"
+                width="264"
+              />
+              <h3 class="header-three-title photocards-header">
+                Mark Guerrero
+              </h3>
+              <p class="paragraph-text">Product Designer</p>
+              <ul class="soc-list unordered-list">
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg cwidth="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-instagram"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-linkedin"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="our-team-item">
+              <img src="images/img2.jpg" alt="Wide-smiling guy" width="264" />
+              <h3 class="header-three-title photocards-header">Tom Ford</h3>
+              <p class="paragraph-text">Frontend Developer</p>
+              <ul class="soc-list unordered-list">
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-instagram"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-linkedin"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="our-team-item">
+              <img
+                src="images/img3.jpg"
+                alt="The brunette looking in full-face"
+                width="264"
+              />
+              <h3 class="header-three-title photocards-header">
+                Camila Garcia
+              </h3>
+              <p class="paragraph-text">Marketing</p>
+              <ul class="soc-list unordered-list">
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-instagram"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-linkedin"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="our-team-item">
+              <img
+                src="images/img4.jpg"
+                alt="Young guy looking in full-face"
+                width="264"
+              />
+              <h3 class="header-three-title photocards-header">
+                Daniel Wilson
+              </h3>
+              <p class="paragraph-text">UI Designer</p>
+              <ul class="soc-list unordered-list">
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-instagram"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
+                <li class="soc-list-item">
+                  <a href="" class="soc-list link"
+                    ><svg width="16" height="16" class="soc-icon">
+                      <use href="./images/icons.svg#icon-linkedin"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="customers">
+        <div class="container customers-container">
+          <h2 class="headertwo-title">Customers</h2>
+          <ul class="customers-list unordered-list">
+            <li class="customers-list-item">
+              <a href="" class="customers-link">
+                <svg width="104" height="56" class="customers-icon">
+                  <use href="./images/icons.svg#icon-customers-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list-item">
+              <a href="" class="customers-link">
+                <svg width="104" height="56" class="customers-icon">
+                  <use href="./images/icons.svg#icon-customers-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list-item">
+              <a href="" class="customers-link">
+                <svg width="104" height="56" class="customers-icon">
+                  <use href="./images/icons.svg#icon-customers-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list-item">
+              <a href="" class="customers-link">
+                <svg width="104" height="56" class="customers-icon">
+                  <use href="./images/icons.svg#icon-customers-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list-item">
+              <a href="" class="customers-link">
+                <svg width="104" height="56" class="customers-icon">
+                  <use href="./images/icons.svg#icon-customers-5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list-item">
+              <a href="" class="customers-link">
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-customers-6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--Підвал сторінки-->
+    <footer class="footer">
+      <div class="container footer-container">
+        <div>
+          <a href="./index.html" class="logo-footer"
+            ><span class="web-footer">Web</span>studio</a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="soc-media">
+          <h4 class="social-media-header">Social media</h4>
+          <ul class="unordered-list soc-media-list">
+            <li class="soc-media-item">
+              <a href="" class="soc-media link">
+                <svg width="24px" height="24px" class="soc-media-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="soc-media-item">
+              <a href="" class="soc-media link">
+                <svg width="24px" height="24px" class="soc-media-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="soc-media-item">
+              <a href="" class="soc-media link"
+                ><svg width="24px" height="24px" class="soc-media-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="soc-media-item">
+              <a href="" class="soc-media link">
+                <svg width="24" height="24" class="soc-media-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close class="close-modal">
+          <svg class="icon icon-close">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
