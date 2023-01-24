@@ -823,11 +823,13 @@ body {
 
 .checkbox-wrapper {
   padding-top: 16px;
+  position: relative;
 }
 
-/* .custom-checkbox {
-  display: none;
-} */
+.custom-checkbox {
+  top: 32px;
+  left: 9px;
+}
 
 .accepting-label {
   display: flex;
